@@ -93,7 +93,7 @@ class Api(object):
         self._urllib         = alt_urllib or urllib2
         self._input_encoding = None
 
-        self.API_VERSION = 8
+        self.API_VERSION = 9
 
         if sandbox:
             self.BASE_URL = 'https://api.sandbox.ticketevolution.com'
